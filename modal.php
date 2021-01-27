@@ -15,7 +15,7 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div class="tab-pane active" id="Login">
-						<form role="form" class="form-horizontal">
+						<form action="login.php" method="post" role="form" class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
 									<input class="form-control" id="email1" placeholder="Name" type="text">
@@ -37,7 +37,7 @@
 						</form>
 					</div>
 					<div class="tab-pane" id="Registration">
-						<form role="form" class="form-horizontal">
+						<form action="register.php" method="post" role="form" class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
 									<input class="form-control" placeholder="Name" type="text">
